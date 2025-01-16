@@ -22,23 +22,38 @@ body {
 
 }
 .row_1 h1{
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat-SemiBold";
     color: var(--color-2);
-    font-size: 68px;
+    font-size: 80px;
     width: 1000px;
     text-align: center;
 
 }
 
 .row_1 h2{
-    font-family: "Montserrat-Thin";
-    color: var(--color-2);
-    font-size: 50px;
+    font-family: "Montserrat-ExtraLight";
+    color: var(--color-3);
+    font-size: 43px;
     width: 1000px;
     text-align: center;
-
+    
 }
 
+.row_1 button{
+    font-family: "Montserrat-Medium";
+    /*tamaño de la letra*/font-size: 15px;
+    color: var(--color-1);
+    position: relative;
+    top: 100px;
+    /* tamaño de la letra*/ font-size: 25px;
+    /*ancho*/width: 300px;
+    /*alto*/height: 98px;
+    border-radius: 30px;
+    border: none;
+    overflow: none;
+    background-color: var(--color-3);
+    left:400px;
+}
 
 .row_2 {
 
