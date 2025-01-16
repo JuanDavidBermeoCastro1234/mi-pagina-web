@@ -27,15 +27,18 @@ body {
     font-size: 80px;
     width: 1000px;
     text-align: center;
+    margin: 0px;
 
 }
 
 .row_1 h2{
     font-family: "Montserrat-ExtraLight";
     color: var(--color-3);
-    font-size: 43px;
+    font-size: 40px;
     width: 1000px;
     text-align: center;
+    margin: 0px;
+
     
 }
 
