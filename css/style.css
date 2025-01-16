@@ -6,3 +6,45 @@
     /**/padding: 0;
     /*bordes de la caja*/box-sizing: border-box;
 }
+
+body {
+    background-color: var(--color-1);
+}
+
+.row_1 {
+
+    /*ancho*/width: 539px;
+    /*alto*/height: 582px;
+    /*fondo background: red; 
+    /*posicion*/position: absolute;
+    /*abajo*/top: 200px;
+    /*derecha*/left:1000px;
+
+}
+.row_1 h1{
+    font-family: "Montserrat-Regular";
+    color: var(--color-2);
+    font-size: 68px;
+    width: 1000px;
+    text-align: center;
+
+}
+
+.row_1 h2{
+    font-family: "Montserrat-Thin";
+    color: var(--color-2);
+    font-size: 50px;
+    width: 1000px;
+    text-align: center;
+
+}
+
+
+.row_2 {
+
+    position: absolute;
+    top: 1000px;
+
+
+
+}
