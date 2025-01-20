@@ -15,7 +15,7 @@ body {
 
     /*ancho*/width: 140px;
     /*alto*/height: 582px;
-    /*fondo background: red; 
+    background: red; 
     /*posicion*/position: absolute;
     /*abajo*/top: 200px;
     /*derecha*/left:1000px;
@@ -28,6 +28,7 @@ body {
     width: 1000px;
     text-align: center;
     margin: 0px;
+    background: red; 
 
 }
 
@@ -40,12 +41,13 @@ body {
     margin: 0px;
     top: 80;
     left:50000px;
+    background: red; 
 
     
 }
 
 .row_1 button{
-    font-family: "Montserrat-Medium";
+    font-family: "AvenirLTStd-Roman";
     /*tamaño de la letra*/font-size: 15px;
     color: var(--color-1);
     position: relative;
