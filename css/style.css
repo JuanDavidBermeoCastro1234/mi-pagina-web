@@ -15,44 +15,69 @@ body {
 
     /*ancho*/width: 140px;
     /*alto*/height: 582px;
-    background: red; 
+    /* background: red;  */
     /*posicion*/position: absolute;
     /*abajo*/top: 200px;
     /*derecha*/left:1000px;
 
 }
+
+.row_3 {
+
+    /*ancho*/width: 140px;
+    /*alto*/height: 582px;
+    /* background: red;  */
+    /*posicion*/position: absolute;
+    /*abajo*/top: 380px;
+    /*derecha*/left:1100px;
+
+}
+
+
+.row_4 {
+
+    /*ancho*/width: 140px;
+    /*alto*/height: 582px;
+    /* background: red;  */
+    /*posicion*/position: absolute;
+    /*abajo*/top: 600px;
+    /*derecha*/left:1000px;
+
+}
+
+
 .row_1 h1{
     font-family: "AvenirLTStd-Heavy";
     color: var(--color-2);
-    font-size: 70px;
-    width: 1000px;
+    font-size: 64px;
+    width: 800px;
     text-align: center;
     margin: 0px;
-    background: red; 
+    /* background: red;  */
 
 }
 
 .row_3 h2{
     font-family: "AvenirLTStd-Roman";
     color: var(--color-3);
-    font-size: 27px;
-    width: 700px;
+    font-size: 26px;
+    width: 600px;
     text-align: center;
     margin: 0px;
     top: 80;
-    left:50000px;
-    background: red; 
+    /* left:50000px; */
+    /* background: red;  */
 
     
 }
 
 .row_4 button{
     font-family: "AvenirLTStd-Roman";
-    /*tamaño de la letra*/font-size: 15px;
+    font-size: 25px; 
     color: var(--color-1);
     position: relative;
     top: 100px;
-    /* tamaño de la letra*/ font-size: 25px;
+    /* tamaño de la letra font-size: 25px; */
     /*ancho*/width: 300px;
     /*alto*/height: 98px;
     border-radius: 30px;
