@@ -37,11 +37,14 @@ body {
 .row_4 {
 
     /*ancho*/width: 140px;
-    /*alto*/height: 582px;
+    /*alto*/height: 58px;
     /* background: red;  */
     /*posicion*/position: absolute;
-    /*abajo*/top: 600px;
-    /*derecha*/left:1000px;
+    /*abajo*/top: 400px;
+    /*derecha*/left:920px;
+    border-radius: 30px;
+    /* border: none; */
+    outline: none;
 
 }
 
@@ -67,36 +70,43 @@ body {
     top: 80;
     /* left:50000px; */
     /* background: red;  */
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
 
     
 }
 
 .row_4 button{
     font-family: "AvenirLTStd-Roman";
-    font-size: 25px; 
+    font-size: 20px; 
     color: var(--color-1);
     position: relative;
     top: 100px;
     /* tamaño de la letra font-size: 25px; */
-    /*ancho*/width: 300px;
-    /*alto*/height: 98px;
+    /*ancho*/width: 190px;
+    /*alto*/height: 65px;
     border-radius: 30px;
-    border: none;
+    /* border: none; */
+    outline: none;
     overflow: none;
     background-color: var(--color-3);
     left:400px;
 }
 
-/* .row_2 {
+.row_2 {
 
-    position: absolute;
-    top: 1000px
-} */
+    /* anchowidth: 140px; */
+    height: 582px;
+    /* background: red;  */
+    /* posicionposition: relative; */
+    /*abajo*/top: 200px;
+    /*derecha*/left:1000px;
+
+}
 .mi-clase{
     margin-left: 15px;
     position: relative;
     top: 25px;
-    left:28px;
+    left:2px;
     margin-bottom: 25px;
     margin-top: 812px;
     left: 700px;
@@ -110,6 +120,6 @@ body {
     left:28px;
     margin-bottom: 25px;
     margin-top: 812px;
-    top: 1000PX;
+    top: 700PX;
     
 }
