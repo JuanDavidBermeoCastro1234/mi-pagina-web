@@ -13,8 +13,8 @@ body {
 }
 
 .container{
-    /*ancho*/width: 1440px;
-    /*alto*/height: 1272px;
+    width: 1440px;
+    height: 1272px;
     position: relative;
     margin: 0 auto;
 
