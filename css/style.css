@@ -5,7 +5,7 @@
     margin: 0;
     /**/padding: 0;
     /*bordes de la caja*/box-sizing: border-box;
-    outline: 2px solid tomato; 
+    /* outline: 2px solid tomato;  */
 }
 
 body {
@@ -25,23 +25,21 @@ body {
 
     /*ancho*/width: 444px;
     /*alto*/height: 473px;
-    
     /*posicion*/position: absolute;
-    /*abajo*/top: 0px;
-    /* derechaleft:415px; */
+    /*abajo*/top: 160px;
+    left:60px; 
     display: flex;
     flex-direction: column;
     gap: 24px; /*separa las demas caajitas */
     
-    title{
+    h1{
         font-family: "AvenirLTStd-Heavy";
         color: var(--color-2);
         /*ancho*/width: 444px;
         /*alto*/height: 231px;
-        /*posicion*/position: absolute;
         font-size: 56px;
     }
-    parrafo{
+    p{
         font-family: "AvenirLTStd-Roman";
         color: var(--color-2);
         color: rgba(37, 37, 37, 0.8);/*esta propiedad es para darle un poco de opacidad*/
@@ -52,15 +50,14 @@ body {
     }
     button{
         font-family: "AvenirLTStd-Roman";
-        font-size: 10px; 
+        font-size: 18px; 
         color: var(--color-3);
-        padding: 18px 48px 18px 48px; /*separa el contenido del  borde de su cajita en orden de: arriba,derecha,abajo, izquierda, en orden de las manecillas del reloj*/
+        padding: 12px 30px 12px 30px; /*separa el contenido del  borde de su cajita en orden de: arriba,derecha,abajo, izquierda, en orden de las manecillas del reloj*/
         /*ancho*/width: 157px;
         /*alto*/height: 50px;
         border-radius: 16px; /*redondear las esquinas*/
         border: none; /*elimina cualquier borde*/
         display: flex;
-        align-self: center;
         background-color: var(--color-2);
     }
 
@@ -71,8 +68,8 @@ body {
     /*ancho*/width: 408px;
     /*alto*/height: 480px;
     /*posicion*/position: absolute;
-    /*abajo*/top: 0px;
-    left:500px; 
+    /*abajo*/top: 100px;
+    left:514px; 
     display: flex;
 }
 
@@ -81,8 +78,8 @@ body {
     /*ancho*/width: 408px;
     /*alto*/height: 480px;
     /*posicion*/position: absolute;
-    /*abajo*/top: 300px;
-    left:490px; 
+    /*abajo*/top: 250px;
+    left:968px; 
     display: flex;
 
 }
@@ -92,8 +89,10 @@ body {
     /*ancho*/width: 1316px;
     /*alto*/height: 440px;
     /*posicion*/position: absolute;
-    /*abajo*/top: 900px;
-    left:px; 
+    /*abajo*/top: 790px;
+    left:60px; 
     display: flex;
+    
+
 
 }
