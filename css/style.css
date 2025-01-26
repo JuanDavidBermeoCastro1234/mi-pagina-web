@@ -35,12 +35,14 @@ body {
     h1{
         font-family: "AvenirLTStd-Heavy";
         color: var(--color-2);
+    
         font-size: 64px;
         text-align: center;
     }
     p{
         font-family: "AvenirLTStd-Roman";
         color: var(--color-3);
+        color: rgba(37, 37, 37, 0.8);/*esta propiedad es para darle un poco de opacidad*/
         font-size: 26px;
         text-align: center;
     }
