@@ -5,6 +5,12 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
