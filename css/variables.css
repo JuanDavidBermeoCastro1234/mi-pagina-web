@@ -1,10 +1,20 @@
 :root{
 
-    --color-1: red;
-    --color-2: white;
+    --color-1: #FFFFFF;
+    --color-2: hsla(0, 0%, 100%, 0.5);
+    --color-3: #080808;
+    --color-4: #E5B94B;
+    --color-5: #E5B94B;
+    --gradiente: linear-gradient(180deg, rgba(156, 32, 4, 0), rgba(171, 39, 6, 1)); 
+
+
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
