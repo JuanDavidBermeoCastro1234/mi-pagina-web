@@ -5,16 +5,27 @@
     --color-3: #080808;
     --color-4: #E5B94B;
     --color-5: #E5B94B;
-    --gradiente: linear-gradient(180deg, rgba(156, 32, 4, 0), rgba(171, 39, 6, 1)); 
+    --color-6: #9C2004;
+    --color-7: #AB2706;
 
 
 }
 
 @font-face {
-    font-family: "AvenirLTStd-Heavy";
-    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+    font-family: "WorkSans-Bold";
+    src: url(../storage/font/WorkSans-Bold.ttf);
 }
 @font-face {
-    font-family: "AvenirLTStd-Roman";
-    src: url(../storage/font/AvenirLTStd-Roman.otf);
+    font-family: "WorkSans-Light";
+    src: url(../storage/font/WorkSans-Light.ttf);
 }
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Medium.ttf);
+}
+
+
+
+
+

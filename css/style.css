@@ -7,4 +7,50 @@
     /*bordes de la caja*/box-sizing: border-box;
     outline: 2px solid red;
 
+
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    background: linear-gradient(180deg, var(--color-6), var(--color-7));
+}
+.img_main{
+    display: flex;
+    width: 656px;
+    height: auto;
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-bottom: 0.5;
+    img{
+        width: 100%;
+    }
+}
+.section_main{
+    margin-left: 169px;
+    margin-top: 134px;
+    margin-right: 64px;
+    margin-bottom: 118px;
+    width: 487px;
+    height: 674px;
+    h1{
+        /* color: var(--color-1); */
+        font-family: "WorkSans-Bold";
+        font-size: 88px;
+        padding-bottom: 40px;
+    }
+    p{
+        /* color: var(--color-1); */
+        font-family: "WorkSans-Light";
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+    button{
+        width: 231px;
+        height: 82px;
+        background-color: var(--color-4);
+        border-radius: 36px;
+        border: none;
+        font-family: "WorkSans-Medium";
+        font-size: 32px;
+    }
 }
