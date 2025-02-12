@@ -1,25 +1,29 @@
 @import url(variables.css);
 
 *{
-
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 body{
     background: linear-gradient(180deg, var(--color-4), var(--color-5));
 
 }
-.header{
+.main{
+    width: 1440px;
+    height: 926px;
+.header_{
     display: flex;
     flex-direction: column;
     width: 756px;
     margin-left: 295px;
     margin-top: 64px;
     gap: 16px;
-        position: relative;
+    bottom: 44px;
+    position: relative;
     z-index: 1;
     h1{
         font-family:"Poppins-Bold";
@@ -45,14 +49,7 @@ body{
         background-color: var(--color-1);
     }
 }
-.main{
-    /* display: flex;
-    flex-direction: row; */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
+
 }
 .section_list{
     display: flex;
@@ -116,10 +113,10 @@ body{
     }
 }
 .img2{
-    position: relative;
+    position: absolute;
     width: 462px;
     height: 508px;
-    top: 0px;
+    bottom: 0px;    
     margin-left: 64px;
     z-index: 0; 
     img{
