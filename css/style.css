@@ -18,22 +18,20 @@ body{
 .header_{
     display: flex;
     flex-direction: column;
+    position:absolute;
     width: 756px;
-    margin-left: 295px;
-    margin-top: 64px;
+    left: 295px;
+    top: 64px;
     gap: 16px;
-    bottom: 44px;
-    position: relative;
     z-index: 1;
     h1{
         font-family:"Poppins-Bold";
         font-size: 88px;
         color: var(--color-1);
-        margin-top: 64px;
-
     }
     p{
         font-family:"Poppins-Regular";
+        width: 659px;
         font-size: 24px;
         margin-right: 97px;
     }
@@ -54,21 +52,18 @@ body{
 .section_list{
     display: flex;
     flex-direction: row;
+    position: absolute;
     width: 948px;
     height: 272px;
     gap: 80px;
-    margin-left: 428px;
-    /* top: 591px; */
-    right: 64px;
-    bottom: 63px; 
+    left: 428px;
+    top: 591px; 
     justify-content: center;
     align-items: center;
     border-radius: 144px;   
     /* background: rgba(255, 255, 255, 0.1); Blanco con opacidad */
     background: linear-gradient(90deg, var(--color-2), var(--color-2));
-    position: absolute;
     z-index: 1;
-    
 
     .article_list{
         width: 204px;
@@ -100,10 +95,9 @@ body{
     }
 }
 .img1{
-    display: flex;
+    position: absolute;
     width: 537.4px;
     height: 512px;
-    position: absolute;
     top : 0px;
     left: 838.6px;
     z-index: 0; 
@@ -116,8 +110,8 @@ body{
     position: absolute;
     width: 462px;
     height: 508px;
+    left: 64px;
     bottom: 0px;    
-    margin-left: 64px;
     z-index: 0; 
     img{
         width: 100%;
