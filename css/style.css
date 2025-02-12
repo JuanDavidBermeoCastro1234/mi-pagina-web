@@ -4,5 +4,35 @@
 
     margin: 0;
     /**/padding: 0;
-    /*bordes de la caja*/box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main{
+    width: 1440;
+    height: 1024;
+}
+.txt{
+    width: 637px;
+    margin-left: 65px;
+    margin-top: 144.33px;
+    h1{
+        font-family:"AvenirLTStd-Heavy";
+        font-size: 72px;
+        color: var(--color-2);
+        padding-bottom: 32px;
+    }
+    p{
+        width: 586px;
+        font-family: "AvenirLTStd-Roman";
+        font-size: 26px;
+        padding-bottom: 32px;
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        background-color: var(--color-2);
+        color: var(--color-1);
+        border-radius: 36px;
+        border: none;
+        font-family: "AvenirLTStd-Roman";
+    }
 }
