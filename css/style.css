@@ -13,12 +13,14 @@
     flex-direction: column;
     width: 756px;
     margin-left: 295px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     gap: 16px;
     h1{
         font-family:"Poppins-Bold";
         font-size: 88px;
         color: var(--color-1);
+        margin-top: 64px;
+
     }
     p{
         font-family:"Poppins-Regular";
@@ -41,7 +43,7 @@
     /* display: flex;
     flex-direction: row; */
     background: linear-gradient(180deg, var(--color-4), var(--color-5));
-
+    margin: 0;
 }
 .section_list{
     display: flex;
@@ -56,11 +58,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 144px;
-    background: linear-gradient(180deg, var(--color-2), var(--color-3));
-
+    /* background: rgba(255, 255, 255, 0.1); Blanco con opacidad */
+    background: linear-gradient(90deg, var(--color-2), var(--color-2));
 
     .article_list{
         width: 204px;
+        background: transparent;
         /* height: 192px; */
         /* gap: 16px; */
         h3{
@@ -87,11 +90,12 @@
     }
 }
 .img1{
-    width: 537.4px;
+    display: flex;
+     width: 537.4px;
     height: 512px;
-    margin-left: 838.6;
-    margin-top: 0;
-    /* position: absolute; */
+    position: absolute;
+    padding-left: 838.6;
+    top : 0px;
     img{
         width: 100%;
         height: 100%;
