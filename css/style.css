@@ -6,3 +6,14 @@
     /**/padding: 0;
     /*bordes de la caja*/box-sizing: border-box;
 }
+.main{
+    width: 1440px;
+    width: 926px;
+}
+.txt{
+    margin-top: 169px;
+    margin-left: 132px;
+    h1{
+        font-family: ;
+    }
+}
