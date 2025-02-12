@@ -15,6 +15,7 @@
 .txt {
     width: 637px;
     height: 477px;
+    margin: 64px;
 
     h1 {
         font-family: "AvenirLTStd-Heavy";
@@ -69,4 +70,32 @@
     position: absolute;
     left: 498px;
     top: 91px;
+}
+.img6 {
+    position: absolute;
+    left: 596px;
+    top: 388px;
+}
+.img7 {
+    position: absolute;
+    left: 1095px;
+    top: 541px;
+}
+.part_baja{
+    position: absolute;
+    width: 668px;
+    height: 122px;
+    left:708px;
+    top: 838px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    p{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 22px;
+    color: var(--color-4);
+    }
+    img{
+        margin: 24px;
+    }
 }
