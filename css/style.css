@@ -8,11 +8,16 @@
 
 
 }
+body{
+    background: linear-gradient(180deg, var(--color-6), var(--color-7));
+
+}
 .main{
     display: flex;
-    width: 100%;
+    width: 1440px;
+    height: 926px;
     flex-direction:row;
-    background: linear-gradient(180deg, var(--color-6), var(--color-7));
+    /* background: linear-gradient(180deg, var(--color-6), var(--color-7)); */
     padding: 0;
 }
 .img_main{
