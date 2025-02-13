@@ -2,17 +2,21 @@
 
     --color-1: #FFFFFF;
     --color-2: #252525;
-    --color-4: rgba(37, 37, 37, 0.55);;
-    --color-5: #252525cc
+    --color-3: rgba(37, 37, 37, 0.45);
+    --color-4: rgba(37, 37, 37, 0.80);
+    --color-5: #EE5E5A;
+    --color-6: #B3CFDD;
+    --color-7: #DBAF64;
+
 
 
 }
 
 @font-face {
-    font-family: "AvenirLTStd-Heavy";
-    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+    font-family: "Typography-Times-Bold";
+    src: url(../storage/font/Typography-Times-Bold.ttf);
 }
 @font-face {
-    font-family: "AvenirLTStd-Roman";
-    src: url(../storage/font/AvenirLTStd-Roman.otf);
+    font-family: "Typography-Times-Regular";
+    src: url(../storage/font/Typography-Times-Regular.ttf);
 }
