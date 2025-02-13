@@ -1,8 +1,101 @@
 @import url(variables.css);
 
-*{
+* {
 
     margin: 0;
-    /**/padding: 0;
-    /*bordes de la caja*/box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1440;
+    height: 1475;
+}
+
+.txt {
+    margin: 0 auto;
+    width:695px ;
+    height: 297px;
+    margin-top: 64px;
+    justify-content: center;
+    text-align: center;
+    h1 {
+        font-family: "Poppins-SemiBold";
+        font-size: 56px;
+        color: var(--color-1);
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-family: "AvenirLTStd-Roman";
+        font-size: 24px;
+        color: var(--color-5);
+        margin-bottom: 24px;
+
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        background-color: var(--color-1);
+        color: var(--color-2);
+        font-size: 24px;
+        border-radius: 36px;
+        border: none;
+        font-family:  "Poppins-Regular";
+    }
+}
+.section-article{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1048px;
+    height: 191px;
+    margin: 0 auto;
+    top:417px;
+    left: 196px;
+    gap: 72px;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    border-radius: 48px;
+    z-index: 1;
+    .article_list{
+        width: 176px;
+        height: 111px;
+        /* background: green; */
+        h3{
+            width: 71px;
+            font-family:  "AvenirLTStd-Heavy";
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: var(--color-1);
+        }
+        hr{
+            width: 66px;
+            height: 4px;
+            background-color: var(--color-1);
+            margin-bottom: 12px;
+        }
+        p{
+            font-family: "AvenirLTStd-Roman";
+            font-size: 18px;
+            color: var(--color-4);
+        }
+    }
+}
+.img{
+    position: absolute;
+    width: 1312px;
+    height: 526px;
+    top: 504px;
+    left: 64px;
+    z-index: 0;
+}
+.img2{
+    position: absolute;
+    width: 1313px;
+    height: 344px;
+    top: 1070px;
+    left: 64px;
 }
