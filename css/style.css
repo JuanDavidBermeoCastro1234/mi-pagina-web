@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    lie
 }
 
 body{
@@ -64,5 +65,42 @@ body{
         font-size: 24px;
         border-radius: 36px;
         border: none;
+    }
+}
+.section-article{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width:1312PX ;
+    height: 171px;
+    bottom: 62px;
+    left: 64px;
+    gap: 92px;
+    /* background: red; */
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+
+    .article-section{
+        width: 231px;
+        height: 123px;
+    }
+    img{
+        width: 24px;
+        height: 24px;
+        margin-bottom: 8px;
+    }
+    h3{
+        width: 122px;
+        font-family: "AvenirLTStd-Heavy";
+        color: var(--color-2);
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    p{
+        width: 231px;
+        font-family: "AvenirLTStd-Roman";
+        font-size: 18px;
+        color: var(--color-2);
     }
 }
