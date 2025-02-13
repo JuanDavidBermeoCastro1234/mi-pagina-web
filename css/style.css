@@ -12,37 +12,51 @@
     position: relative;
     width: 1440px;
     height: 1024px;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
+    }
 .txt1{
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 637px;
-    height: 614px;
-    top: 231px;
-    left: 401.5px;
+    height: 692px;
+    top: 182px;
+    left: 401px;
     text-align: center;
     align-items: center;
+    /* background: red; */
+    background-image: url(../storage/img/Gradien.png);
     h1{
         font-family: "Typography-Times-Regular";
         font-size: 112px;
         color: var(--color-2);
+        padding-bottom: 48px;
+        line-height: 0.8; /* Altura de línea igual a la altura de la fuente */
     }
     p{
         font-family: "Typography-Times-Regular";
-        font-size: 24px;
         width: 306px;
+        font-size: 20px;
         color: var(--color-4);
+        padding-bottom: 48px;
+
     }
     button{
         width: 182px;
+        height: 66px;
         background-color: var(--color-2);
         border-radius: 36px;
         border: none;
         color: var(--color-1);
-        font-family: ;
+        font-family:"Poppins-Regular";
+        font-size: 24px;
+
     }
+}
+.txt2{
+    position: absolute;
+    bottom: 0;
+}
+.txt3{
+    position: absolute;
+    bottom: 0;
 }
