@@ -13,14 +13,36 @@
     width: 1440px;
     height: 1024px;
     background-repeat: no-repeat;
-    margin-left: 496px;
-    margin-top: 182px;
+    margin: 0 auto;
 }
 .txt1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 637px;
     height: 614px;
-    position: absolute;
+    top: 231px;
+    left: 401.5px;
+    text-align: center;
+    align-items: center;
     h1{
-        
+        font-family: "Typography-Times-Regular";
+        font-size: 112px;
+        color: var(--color-2);
+    }
+    p{
+        font-family: "Typography-Times-Regular";
+        font-size: 24px;
+        width: 306px;
+        color: var(--color-4);
+    }
+    button{
+        width: 182px;
+        background-color: var(--color-2);
+        border-radius: 36px;
+        border: none;
+        color: var(--color-1);
+        font-family: ;
     }
 }
