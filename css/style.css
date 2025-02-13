@@ -1,8 +1,61 @@
 @import url(variables.css);
 
-*{
+* {
 
     margin: 0;
-    /**/padding: 0;
-    /*bordes de la caja*/box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1440px;
+    height: 1024px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section-1 {
+    position: absolute;
+    width: 724px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    top: 233px;
+    left: 120px;
+    /* justify-content: center;
+    align-items: center; */
+    img{
+        width: 80px;
+        height: 16px;
+        margin-bottom: 24px;
+    }
+    h1 {
+        width: 612px;
+        font-family: "AvenirLTStd-Heavy";
+        font-size: 64px;
+        color: var(--color-2);
+        margin-bottom: 40px;
+    }
+    p {
+        width: 586px;
+        font-family: "AvenirLTStd-Roman";
+        font-size: 26px;
+        color: var(--color-2);
+        margin-bottom: 40px;
+
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        background-color: var(--color-9);
+        color: var(--color-8);
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+        border-radius: 36px;
+        border: none;
+
+    }
 }
