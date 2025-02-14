@@ -7,18 +7,24 @@
     box-sizing: border-box;
 }
 
-.main {
-    width: 1440;
-    height: 1475;
+.container_main {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1475px;
+    /* background: red; */
 }
 
 .txt {
+    /* background: green; */
+    position: absolute;
     margin: 0 auto;
     width:695px ;
     height: 297px;
-    margin-top: 64px;
+    top: 64px;
+    left: 358PX;
     justify-content: center;
-    text-align: center;
+    text-align: center;     
     h1 {
         font-family: "Poppins-SemiBold";
         font-size: 56px;
@@ -50,11 +56,9 @@
     flex-direction: row;
     width: 1048px;
     height: 191px;
-    margin: 0 auto;
     top:417px;
     left: 196px;
     gap: 72px;
-    /* background: red; */
     justify-content: center;
     align-items: center;
     background-color: var(--color-2);
@@ -63,7 +67,6 @@
     .article_list{
         width: 176px;
         height: 111px;
-        /* background: green; */
         h3{
             width: 71px;
             font-family:  "AvenirLTStd-Heavy";
