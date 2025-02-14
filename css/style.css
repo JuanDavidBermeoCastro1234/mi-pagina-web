@@ -12,6 +12,10 @@
     display: flex;
     flex-direction: row;
     margin-left: 64px;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .image_header {
