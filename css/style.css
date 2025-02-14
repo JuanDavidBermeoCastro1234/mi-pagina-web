@@ -12,6 +12,11 @@
     display: flex;
     flex-direction: row;
     gap: 112px;
+    width: 1440px;
+    height: 1070px;
+    margin: 0 auto;
+    position: relative;
+    
 }
 .section_img {
     display: flex;
