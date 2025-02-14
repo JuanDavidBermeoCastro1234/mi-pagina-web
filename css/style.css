@@ -9,6 +9,8 @@
 .main{
     width: 1440px;
     height: 1024px ;
+    margin: 0 auto;
+    position: relative;
 }
 .section1{
     width: 568px;
