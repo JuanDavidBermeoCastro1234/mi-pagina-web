@@ -17,6 +17,10 @@ body{
     flex-direction: row;
     width: 1440px;
     width: 926px;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .txt {
