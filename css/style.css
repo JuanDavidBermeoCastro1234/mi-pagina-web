@@ -11,6 +11,10 @@
 .main {
     width: 1440;
     height: 1024;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .txt {
