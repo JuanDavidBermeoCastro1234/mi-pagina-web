@@ -9,6 +9,8 @@
 .main{
     width: 1440px;
     width: 1024px;
+    margin: 0 auto;
+    position: relative;
 }
 .txt1{
     width: 356px;
