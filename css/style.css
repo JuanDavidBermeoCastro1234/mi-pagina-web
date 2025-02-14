@@ -9,6 +9,12 @@
     box-sizing: border-box;
     /* outline: 2px solid red; */
 }
+body{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
 
 .header {
     width: 833px;
