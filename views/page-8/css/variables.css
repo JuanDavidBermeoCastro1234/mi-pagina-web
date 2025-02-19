@@ -1,0 +1,31 @@
+:root{
+
+    --color-1: #FFFFFF;
+    --color-2: hsla(0, 0%, 100%, 0.5);
+    --color-3: #080808;
+    --color-4: #E5B94B;
+    --color-5: #E5B94B;
+    --color-6: #9C2004;
+    --color-7: #AB2706;
+
+
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/font/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/font/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Medium.ttf);
+}
+
+
+
+
+
