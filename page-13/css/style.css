@@ -1,0 +1,127 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 637px;
+    height: 692px;
+    margin-left: 496px;
+    margin-top: 182px;
+}
+.main{
+    width: 1440px;
+    height: 1024px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    }
+.txt1{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 637px;
+    height: 630px;
+    top: 231px;
+    left: 401px;
+    text-align: center;
+    align-items: center;
+    h1{
+        font-family: "Typography-Times-Regular";
+        font-size: 112px;
+        color: var(--color-2);
+        padding-bottom: 48px;
+        line-height: 0.8; /* Altura de línea igual a la altura de la fuente */
+    }
+    p{
+        width: 306px;
+        font-size: 24px;
+        color: var(--color-4);
+        padding-bottom: 48px;
+    }
+    button{
+        width: 182px;
+        height: 66px;
+        background-color: var(--color-2);
+        border-radius: 36px;
+        border: none;
+        color: var(--color-1);
+        font-family:"Poppins-Regular";
+        font-size: 24px;
+
+    }
+}
+.txt2{
+    position: absolute;
+    top: 99px;
+    left: 64px;
+    width: 434px;
+    h3{
+        font-family: "Typography-Times-Bold";
+        font-size: 24px;
+        color: var(--color-3);
+   }
+    p{
+        font-size: 24px;
+    }
+}
+.txt3{
+    position: absolute;
+    top: 812px;
+    left: 942px;
+    width: 434px;
+    h3{
+        font-family: "Typography-Times-Bold";
+        font-size: 24px;
+        color: var(--color-3);
+   }
+    p{
+        font-size: 24px;
+   }
+}
+.img1{
+    position: absolute;
+
+    width: 179.91px;
+    height: 176.67px;
+    top: 220px;
+    left: 83.88px;
+}
+.img2{
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 432px;
+    left: 64px;
+}
+.img3{
+    position: absolute;
+    width: 255px;
+    height: 320px;
+    top: 237px;
+    left: 311px;
+}
+.img4{
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 0px;
+    left: 964px;
+}
+.img5{
+    position: absolute;
+    width: 191px;
+    height: 242px;
+    top: 535px;
+    left: 921px;
+}
+.img6{
+    position: absolute;
+    width: 174px;
+    height: 173.51px;
+    top: 647px;
+    left: 1135px;
+}
