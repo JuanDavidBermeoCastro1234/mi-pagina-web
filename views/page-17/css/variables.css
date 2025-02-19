@@ -1,0 +1,30 @@
+:root{
+
+    --color-1: #252525;
+    --color-2: #FFFFFF;
+    --color-3: #F2F2F2;
+    --color-4: #252525B3;
+    --color-5: #252525CC; 
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Medium";
+     src: url(../storage/font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
+}
