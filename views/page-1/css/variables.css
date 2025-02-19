@@ -1,0 +1,36 @@
+:root{
+
+
+    --color-1: #FFFFFF;
+    --color-2: #000000;
+    --color-3: #252525;  
+    --color-4: gray;  
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
+}
+
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../storage/font/Montserrat-Medium.ttf);
+}
+
+@font-face { 
+    font-family: "Montserrat-Bold";
+    src: url(../storage/font/Montserrat-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Montserrat-ThinItalic";
+    src: url(../storage/font/Montserrat-ThinItalic.ttf);
+}
