@@ -1,0 +1,98 @@
+@import url(variables.css);
+
+*{
+
+    margin: 0;
+    /**/padding: 0;
+    /*bordes de la caja*/box-sizing: border-box;
+    /* outline: 2px solid tomato;  */
+}
+
+body {
+    background-color: var(--color-3);
+}
+
+.container{
+    width: 1440px;
+    height: 1272px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+.principal{
+
+    /*ancho*/width: 444px;
+    /*alto*/height: 473px;
+    /*posicion*/position: absolute;
+    /*abajo*/top: 160px;
+    left:60px; 
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /*separa las demas caajitas */
+    
+    h1{
+        font-family: "AvenirLTStd-Heavy";
+        color: var(--color-2);
+        /*ancho*/width: 444px;
+        /*alto*/height: 231px;
+        font-size: 56px;
+    }
+    p{
+        font-family: "AvenirLTStd-Roman";
+        color: var(--color-2);
+        color: rgba(37, 37, 37, 0.8);/*esta propiedad es para darle un poco de opacidad*/
+        /*ancho*/width: 386px;
+        /*alto*/height: 144px;
+        font-size: 26px;
+
+    }
+    button{
+        font-family: "AvenirLTStd-Roman";
+        font-size: 18px; 
+        color: var(--color-3);
+        padding: 12px 30px 12px 30px; /*separa el contenido del  borde de su cajita en orden de: arriba,derecha,abajo, izquierda, en orden de las manecillas del reloj*/
+        /*ancho*/width: 157px;
+        /*alto*/height: 50px;
+        border-radius: 16px; /*redondear las esquinas*/
+        border: none; /*elimina cualquier borde*/
+        display: flex;
+        background-color: var(--color-2);
+    }
+
+}
+
+.img1{
+
+    /*ancho*/width: 408px;
+    /*alto*/height: 480px;
+    /*posicion*/position: absolute;
+    /*abajo*/top: 100px;
+    left:514px; 
+    display: flex;
+}
+
+.img2{
+
+    /*ancho*/width: 408px;
+    /*alto*/height: 480px;
+    /*posicion*/position: absolute;
+    /*abajo*/top: 250px;
+    left:968px; 
+    display: flex;
+
+}
+
+.tresimg{
+
+    /*ancho*/width: 1316px;
+    /*alto*/height: 440px;
+    /*posicion*/position: absolute;
+    /*abajo*/top: 790px;
+    left:60px; 
+    display: flex;
+    
+
+
+}
