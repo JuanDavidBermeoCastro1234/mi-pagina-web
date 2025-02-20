@@ -14,3 +14,7 @@
     font-family: "AvenirLTStd-Roman";
     src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
+@font-face {
+    font-family: "AvenirLTStd-Book";
+    src: url(../storage/font/AvenirLTStd-Book.otf);
+}

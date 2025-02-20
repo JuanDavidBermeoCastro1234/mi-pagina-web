@@ -100,3 +100,15 @@ footer{
     }
 
 }
+.autor{
+    align-items: center;
+    display: flex;
+    margin-left: 16vw;
+    a{
+        display: flex;
+        cursor: pointer;
+        font-family: "AvenirLTStd-Book";
+        color: var(--color-3);
+
+    }
+}
